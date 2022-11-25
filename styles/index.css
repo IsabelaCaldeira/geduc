@@ -1,3 +1,8 @@
+:root{
+    --dark-purple: #220E75;
+    --text-color: #5F5978;
+}
+
 *{
     margin: 0;
     padding: 0;
@@ -20,7 +25,37 @@ nav{
 
 nav a{
     font-weight: 400;
-    color: #220E75;
+    color: var(--dark-purple);
     font-size: 1.25rem;
     text-decoration: none;  
+}
+
+h1{
+    font-size: 3.438rem;
+    color: var(--dark-purple);
+    font-weight: bold;
+}
+
+main{
+    align-items: center;
+    justify-content: center;
+}
+
+.main-text{
+    color: var(--text-color);
+    font-weight: 500;
+}
+
+.main-button{
+    color: #FFF;
+    background-color: var(--dark-purple);
+    border: none;
+    height: 76px;
+    width: 250px;
+    line-height: 40px;
+    padding: 0 30px;
+    font-size: 28px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 85px;
 }
