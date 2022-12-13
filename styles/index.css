@@ -1,6 +1,7 @@
 :root{
     --dark-purple: #220E75;
     --text-color: #5F5978;
+    --white: #fff
 }
 
 *{
@@ -55,7 +56,7 @@ main{
 }
 
 .main-button{
-    color: #FFF;
+    color: var(--white);
     background-color: var(--dark-purple);
     border: none;
     height: 70px;
